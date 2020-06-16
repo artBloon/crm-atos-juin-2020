@@ -7,4 +7,8 @@
 ✔ TextModule @done(20-06-15 14:20)
 ✔ UiModule @done(20-06-15 14:20)
 ✔ TemplateModule @done(20-06-15 14:20)
-
+✔ life cycles @done(20-06-16 12:25)
+✔ text module @done(20-06-16 12:25)
+☐ nav-items component with @input() and interface
+☐ router
+☐ component stupides vs components intelligents

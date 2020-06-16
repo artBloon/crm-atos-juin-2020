@@ -9,6 +9,7 @@ import { UiModule } from './ui/ui.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { IconsModule } from './icons/components/icons/icons.module';
+import { TextModule } from './text/text.module';
 
 
 @NgModule({
@@ -17,14 +18,14 @@ import { IconsModule } from './icons/components/icons/icons.module';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     LoginModule,
+    AppRoutingModule,
     CoreModule,
     IconsModule,
+    TextModule,
     UiModule,
     TemplateModule,
-    NgbModule,
-    FontAwesomeModule
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
