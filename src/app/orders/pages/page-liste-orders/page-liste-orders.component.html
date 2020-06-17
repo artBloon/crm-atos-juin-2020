@@ -1,14 +1,17 @@
 <app-template-one-col [title]="true">
 
-  <ng-container class="title">
-    <app-text class="text" [colorLight]="true">
+   <ng-container class="title">
+    <app-text class="text" color="light-color">
       <h1>Orders</h1>
     </app-text>
   </ng-container>
 
   <ng-container class="contents">
-    <div>Premier element</div>
-    <div>Deuxieme element</div>
+    <div>Table component</div>
+    
+    <app-btn label="Add an Order" route="add" ></app-btn>
+    <app-btn label="Angular DOC" href="https://www.angular.io" ></app-btn>
+    <app-btn label="POPUP" [action]="true"></app-btn>
   </ng-container>
 
 </app-template-one-col>

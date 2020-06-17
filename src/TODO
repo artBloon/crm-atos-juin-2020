@@ -16,4 +16,4 @@
   ✔ ClientsRoutingModule @done(20-06-17 09:32)
   ✔ navigation vers la route clients @done(20-06-17 09:32)
 ✔ nav-items component with @input() and interface @done(20-06-17 09:32)
-☐ 
+☐ btn component dynamique stupid and @Output()
