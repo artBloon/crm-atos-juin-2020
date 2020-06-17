@@ -1,35 +1,47 @@
 @import 'theme';
 @import 'fonts';
 
- app-text {
+app-text {
    display: block;
-   padding: 10px;
+   //padding: 10px;
  }
 
 .text {
-  .light-color{
-    h1, h2, h3, p, span, i, li {
+  .color-light{
+    h1, h2, h3, p, span, i, li, a, button {
       color: $light-color;
     }
   }
 
   .color-one{
-    h1, h2, h3, p, span, i, li {
-      color: $light-color;
+    h1, h2, h3, p, span, i, li, a, button {
+      color: $color1;
     }
   }
 
   .color-two{
-    h1, h2, h3, p, span, i, li {
-      color: $light-color;
+    h1, h2, h3, p, span, i, li, a, button {
+      color: $color2;
     }
   }
 
   .color-tree{
-    h1, h2, h3, p, span, i, li {
-      color: $light-color;
+    h1, h2, h3, p, span, i, li, a, button {
+      color: $color3;
     }
   }
+
+  .color-success {
+    h1, h2, h3, p, span, i, li, a, button {
+      color: $color-success;
+    }
+  }
+
+  .color-error {
+      h1, h2, h3, p, span, i, li, a, button {
+        color: $color-error;
+      }
+    }
 
 }
 
@@ -40,6 +52,7 @@
 //   }
 // }
 
+// sizes
 h1 {
   font-size: $h1-fz;
 }

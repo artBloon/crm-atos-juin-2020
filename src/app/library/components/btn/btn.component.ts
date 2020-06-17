@@ -10,6 +10,7 @@ export class BtnComponent implements OnInit {
   @Input() route: string;
   @Input() href: string;
   @Input() action: boolean;
+  @Input() color: string;
   constructor() { }
 
   ngOnInit(): void {

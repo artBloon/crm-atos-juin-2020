@@ -16,4 +16,12 @@
   ✔ ClientsRoutingModule @done(20-06-17 09:32)
   ✔ navigation vers la route clients @done(20-06-17 09:32)
 ✔ nav-items component with @input() and interface @done(20-06-17 09:32)
-☐ btn component dynamique stupid and @Output()
+✔ btn component dynamique stupid and @Output() @done(20-06-17 17:12)
+✔ directive perso pour les noms de class sur app text @done(20-06-17 17:12)
+✔ tableau component @done(20-06-17 17:12)
+☐ appels http
+☐ collection dans le tableau
+☐ pipes angular
+☐ directive perso
+☐ exemple de pipe perso
+☐ come back btn component for @Output()
