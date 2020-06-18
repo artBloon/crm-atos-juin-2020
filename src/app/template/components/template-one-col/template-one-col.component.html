@@ -1,6 +1,6 @@
-<div class="container-fluid">
+<div class="container-fluid" [ngClass]="{'bg-color2' : bgColor2}">
   <div class="row" *ngIf="title">
-    <div class="col-12 bandeau">
+    <div class="col-12 bandeau" [ngClass]="{'bg-color2' : bgColor2}">
       <ng-content select=".title"></ng-content>
     </div>
   </div>

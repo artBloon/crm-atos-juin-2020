@@ -35,6 +35,9 @@ export class PageListeOrdersComponent implements OnInit {
     ];
   }
 
+  public popup(){
+    console.log("popup");
+  }
 
   ngOnDestroy() {
     //this.sub.unsubscribe();

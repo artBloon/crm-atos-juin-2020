@@ -1,4 +1,4 @@
-<app-template-one-col [title]="true">
+<app-template-one-col [title]="true" [bgColor2]="true">
 
    <ng-container class="title">
     <app-text class="text" color="color-light">
@@ -26,10 +26,8 @@
       </tr>
     </app-table-light>
 
-
-    <app-btn label="Add an Order" route="add" color="color-one"></app-btn>
-    <app-btn label="Angular DOC" href="https://www.angular.io" color="color-two"></app-btn>
-    <app-btn label="POPUP" [action]="true" color="color-tree"></app-btn>
+    <app-btn label="Add an Order" route="add" color="color-light"></app-btn>
+    <app-btn label="Angular DOC" href="https://www.angular.io" color="color-light"></app-btn>
+    <app-btn label="POPUP" [action]="true" color="color-light" (clicked)="popup()"></app-btn>
   </ng-container>
-
 </app-template-one-col>

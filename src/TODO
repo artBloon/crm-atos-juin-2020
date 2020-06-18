@@ -21,6 +21,6 @@
 ✔ tableau component @done(20-06-17 17:12)
 ✔ appels http @done(20-06-18 14:24)
 ✔ pipes angular @done(20-06-18 14:25)
-☐ agilité to change table en cours  de projet
-☐ :host and :host-context() angular
+✔ agilité to change table en cours  de projet @done(20-06-18 15:07)
+✔ :host and :host-context() angular @done(20-06-18 15:07)
 ☐ come back btn component for @Output()

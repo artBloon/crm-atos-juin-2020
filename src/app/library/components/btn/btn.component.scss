@@ -13,14 +13,15 @@ a, button {
     background: darken($color1, 10);
   }
 }
-// :host-context(.bg-color-two) {
-//   a, button {
-//     background: $color2;
-//     &:hover {
-//       background: darken($color2, 10);
-//     }
-//   }
-// }
+
+ :host-context(.bg-color2) {
+   a, button {
+     background: $color2;
+     &:hover {
+       background: darken($color2, 10);
+     }
+   }
+ }
 // :host-context(.bg-color-three) {
 //   a, button {
 //     background: $color3;
