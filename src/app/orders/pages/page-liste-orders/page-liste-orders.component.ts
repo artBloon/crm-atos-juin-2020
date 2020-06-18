@@ -1,7 +1,8 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 import { OrdersService } from '../../services/orders.service';
 import { Order } from 'src/app/shared/models/order';
 import { Observable } from 'rxjs';
+import { StateOrder } from 'src/app/shared/enums/state-order.enum';
 
 @Component({
   selector: 'app-page-liste-orders',
@@ -13,6 +14,7 @@ export class PageListeOrdersComponent implements OnInit {
   public collection$: Observable<Order[]>;
   public headers: string[];
   constructor(private os: OrdersService) { }
+  public states = Object.values(StateOrder);
   //private sub: Subscription;
 
   ngOnInit(): void {
@@ -36,6 +38,14 @@ export class PageListeOrdersComponent implements OnInit {
 
   ngOnDestroy() {
     //this.sub.unsubscribe();
+  }
+
+  public changeState(item: Order, e){
+    this.os.changeState(item, e.target.value).subscribe((res) => {
+      // traiter res api
+      item.state = res.state;
+
+    });
   }
 
 }
