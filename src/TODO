@@ -19,9 +19,8 @@
 ✔ btn component dynamique stupid and @Output() @done(20-06-17 17:12)
 ✔ directive perso pour les noms de class sur app text @done(20-06-17 17:12)
 ✔ tableau component @done(20-06-17 17:12)
-☐ appels http
-☐ collection dans le tableau
-☐ pipes angular
-☐ directive perso
-☐ exemple de pipe perso
+✔ appels http @done(20-06-18 14:24)
+✔ pipes angular @done(20-06-18 14:25)
+☐ agilité to change table en cours  de projet
+☐ :host and :host-context() angular
 ☐ come back btn component for @Output()
