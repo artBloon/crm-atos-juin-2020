@@ -5,7 +5,7 @@
       "nbJours": 1,
       "tva": 20,
       "state": "CONFIRMED",
-      "typePresta": "Formation2",
+      "typePresta": "Formation",
       "client": "nemesys",
       "comment": "fssdgh",
       "id": 3
@@ -45,7 +45,7 @@
       "nbJours": 1,
       "tva": 20,
       "state": "CONFIRMED",
-      "typePresta": "formation",
+      "typePresta": "Formation",
       "client": "nemesys",
       "comment": "un joli commentaire",
       "id": 7
