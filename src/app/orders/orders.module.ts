@@ -7,18 +7,21 @@ import { TextModule } from '../text/text.module';
 import { LibraryModuleModule } from '../library/library-module.module';
 import { SharedModule } from '../shared/shared.module';
 import { PageAddOrderComponent } from './pages/page-add-order/page-add-order.component';
+import { FormOrderComponent } from './components/form-order/form-order.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 
 @NgModule({
-  declarations: [PageListeOrdersComponent, PageAddOrderComponent],
+  declarations: [PageListeOrdersComponent, PageAddOrderComponent, FormOrderComponent],
   imports: [
     CommonModule,
     OrdersRoutingModule,
     TemplateModule,
     TextModule,
     LibraryModuleModule,
-    SharedModule
+    SharedModule,
+    ReactiveFormsModule
   ]
 })
 export class OrdersModule { }
