@@ -4,20 +4,24 @@
   .state-canceled{
     background: $color-error;
   }
-
   .state-option{
-    background: $color1;
+    background: $color2;
   }
-
   .state-confirmed{
     background: $color-success;
+  }
+  .state-active{
+    background: $color-success;
+  }
+  .state-inactive{
+    background: $color-error;
   }
 }
 
 .bg-color2{
   .table-dark{
     .state-option{
-      background: $color2;
+      background: $color1;
     }
 
   }

@@ -6,11 +6,12 @@ import { TemplateModule } from '../template/template.module';
 import { TextModule } from '../text/text.module';
 import { LibraryModuleModule } from '../library/library-module.module';
 import { SharedModule } from '../shared/shared.module';
+import { PageAddOrderComponent } from './pages/page-add-order/page-add-order.component';
 
 
 
 @NgModule({
-  declarations: [PageListeOrdersComponent],
+  declarations: [PageListeOrdersComponent, PageAddOrderComponent],
   imports: [
     CommonModule,
     OrdersRoutingModule,
