@@ -3,6 +3,7 @@ import { OrdersService } from '../../services/orders.service';
 import { Order } from 'src/app/shared/models/order';
 import { Observable } from 'rxjs';
 import { StateOrder } from 'src/app/shared/enums/state-order.enum';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-page-liste-orders',
@@ -13,7 +14,10 @@ export class PageListeOrdersComponent implements OnInit {
   //public collection: Order[];
   public collection$: Observable<Order[]>;
   public headers: string[];
-  constructor(private os: OrdersService) { }
+  constructor(
+    private os: OrdersService,
+    private router: Router
+    ) { }
   public states = Object.values(StateOrder);
   //private sub: Subscription;
 
@@ -37,6 +41,12 @@ export class PageListeOrdersComponent implements OnInit {
 
   public popup(){
     console.log("popup");
+  }
+
+  public edit(item: Order){
+    this.router.navigate(['orders','edit',item.id]);
+    //console.log("edit");
+
   }
 
   ngOnDestroy() {

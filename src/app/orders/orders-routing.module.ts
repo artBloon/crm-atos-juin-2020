@@ -2,11 +2,13 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { PageListeOrdersComponent } from './pages/page-liste-orders/page-liste-orders.component';
 import { PageAddOrderComponent } from './pages/page-add-order/page-add-order.component';
+import { PageEditOrderComponent } from './pages/page-edit-order/page-edit-order.component';
 
 
 const routes: Routes = [
   { path: '', component: PageListeOrdersComponent},
-  { path: 'add', component: PageAddOrderComponent}
+  { path: 'add', component: PageAddOrderComponent},
+  { path: 'edit/:id', component: PageEditOrderComponent},
 ];
 
 @NgModule({
